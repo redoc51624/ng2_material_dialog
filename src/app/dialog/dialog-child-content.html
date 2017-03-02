@@ -1,9 +1,18 @@
-<h2>Welcome to child dialog</h2>
+<h2>
+    Welcome to child dialog</h2>
+<iframe width="854" height="480" src="https://www.youtube.com/embed/9hDKfBKuXjI" frameborder="0" allowfullscreen></iframe>
+<table>
+    <thead>
+        <th>USER DETAILS</th>
+    </thead>
+    <tbody>
 
-<p>Inside child dialog</p>
-<p>Your content </p>
-<ul>
-    <li>Child Content 1</li>
-    <li>Child Conten 2</li>
-    <li>Child Conten 3</li>
-</ul>
+        <tr *ngFor="let result of results">
+            <td>{{result.id}}</td>
+            <td> {{result.username}}</td>
+            <td> {{result.email}}</td>
+            <!--<td> {{result.}}</td>-->
+
+        </tr>
+    </tbody>
+</table>

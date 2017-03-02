@@ -10,3 +10,9 @@ p,
 li {
     color: lightskyblue
 }
+
+tr {
+    width: 50px;
+    color: lightskyblue;
+    background-color: lightslategray
+}
