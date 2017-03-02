@@ -12,6 +12,8 @@ import { removeNgStyles, createNewHosts } from '@angularclass/hmr';
 import { MaterialModule } from '@angular/material';
 import { DialogOverviewExampleDialog } from './app/dialog/dialog-overview-example-dialog';
 import {DialogOverviewExample} from './app/dialog/dialog-overview-example';
+import  {DialogChild} from './app/dialog/dialog-child';
+import  {DialogChildContent} from './app/dialog/dialog-child-content';
 
 // import { MdCoreModule } from '@angular2-material/core',
 // import { MdButtonModule } from '@angular2-material/button';
@@ -32,9 +34,9 @@ import {DialogOverviewExample} from './app/dialog/dialog-overview-example';
     // MdCheckboxModule, MdTooltipModule, MdSliderModule
   ],
   declarations: [
-    AppComponent,DialogOverviewExample, DialogOverviewExampleDialog
+    AppComponent,DialogOverviewExample, DialogOverviewExampleDialog,DialogChild,DialogChildContent
   ],
-  entryComponents:[DialogOverviewExample,DialogOverviewExampleDialog],
+  entryComponents:[DialogOverviewExample,DialogOverviewExampleDialog,DialogChild,DialogChildContent],
 
   providers: [
     ApiService

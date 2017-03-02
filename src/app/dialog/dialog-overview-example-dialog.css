@@ -11,3 +11,8 @@ h1 {
 p {
     color: darkred
 }
+
+.child-button {
+    background-color: darkred;
+    color: white;
+}
